@@ -1,0 +1,32 @@
+{
+  "bleeding": [
+    "Apply firm direct pressure with a clean cloth or bandage.",
+    "Keep pressure steady until trained responders arrive.",
+    "If possible, keep the injured area elevated above heart level."
+  ],
+  "fracture": [
+    "Do not move the injured limb unless the scene is unsafe.",
+    "Immobilize the area with padding or a splint if trained.",
+    "Apply a cold pack wrapped in cloth to reduce swelling."
+  ],
+  "cardiac arrest": [
+    "Check responsiveness and normal breathing.",
+    "Start hands-only CPR: push hard and fast in the center of the chest.",
+    "Ask someone to bring the nearest AED immediately."
+  ],
+  "chest pain": [
+    "Keep the person seated and calm.",
+    "Loosen tight clothing and monitor breathing.",
+    "Do not give food or drink. Prepare for CPR if they become unresponsive."
+  ],
+  "burns": [
+    "Cool the burn with clean running water for at least 20 minutes.",
+    "Remove jewelry or tight clothing near the burn if not stuck to skin.",
+    "Cover with a clean, non-stick dressing. Do not apply ice."
+  ],
+  "unknown": [
+    "Make sure the scene is safe before approaching.",
+    "Keep the person still and monitor breathing.",
+    "Follow dispatcher or LifeLine AI guidance until help arrives."
+  ]
+}

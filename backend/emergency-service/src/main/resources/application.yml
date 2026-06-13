@@ -1,0 +1,34 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+spring:
+  application:
+    name: emergency-service
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/smart_emergency_grid}
+    username: ${SPRING_DATASOURCE_USERNAME:seg_user}
+    password: ${SPRING_DATASOURCE_PASSWORD:seg_password}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+services:
+  severity-ai-url: ${SEVERITY_AI_URL:http://localhost:8001}
+  ambulance-url: ${AMBULANCE_SERVICE_URL:http://localhost:8082}
+  route-url: ${ROUTE_OPTIMIZATION_URL:http://localhost:8002}
+  traffic-url: ${TRAFFIC_SERVICE_URL:http://localhost:8084}
+  hospital-recommendation-url: ${HOSPITAL_RECOMMENDATION_URL:http://localhost:8003}
+  hospital-url: ${HOSPITAL_SERVICE_URL:http://localhost:8083}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

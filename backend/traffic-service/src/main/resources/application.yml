@@ -1,0 +1,23 @@
+server:
+  port: ${SERVER_PORT:8084}
+
+spring:
+  application:
+    name: traffic-service
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/smart_emergency_grid}
+    username: ${SPRING_DATASOURCE_USERNAME:seg_user}
+    password: ${SPRING_DATASOURCE_PASSWORD:seg_password}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info

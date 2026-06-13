@@ -1,0 +1,7 @@
+**/node_modules
+**/.next
+**/target
+**/.venv
+**/__pycache__
+**/.pytest_cache
+.git

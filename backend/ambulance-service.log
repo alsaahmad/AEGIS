@@ -1,0 +1,46 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-06-13T20:00:37.788+05:30  INFO 2040 --- [ambulance-service] [           main] c.l.g.a.AmbulanceServiceApplication      : Starting AmbulanceServiceApplication using Java 21.0.10 with PID 2040 (C:\Users\wwwan\Downloads\workspace-019eba94-e336-7b45-a944-dfd1a82d6f78\smart-emergency-grid\backend\ambulance-service\target\classes started by wwwan in C:\Users\wwwan\Downloads\workspace-019eba94-e336-7b45-a944-dfd1a82d6f78\smart-emergency-grid\backend\ambulance-service)
+2026-06-13T20:00:37.799+05:30  INFO 2040 --- [ambulance-service] [           main] c.l.g.a.AmbulanceServiceApplication      : The following 1 profile is active: "local"
+2026-06-13T20:00:39.486+05:30  INFO 2040 --- [ambulance-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T20:00:39.584+05:30  INFO 2040 --- [ambulance-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 85 ms. Found 3 JPA repository interfaces.
+2026-06-13T20:00:41.934+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2026-06-13T20:00:41.983+05:30  INFO 2040 --- [ambulance-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T20:00:42.037+05:30  INFO 2040 --- [ambulance-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-13T20:00:42.178+05:30  INFO 2040 --- [ambulance-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-13T20:00:42.181+05:30  INFO 2040 --- [ambulance-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4222 ms
+2026-06-13T20:00:42.784+05:30  INFO 2040 --- [ambulance-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-13T20:00:42.878+05:30  INFO 2040 --- [ambulance-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-13T20:00:42.915+05:30  INFO 2040 --- [ambulance-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-13T20:00:43.557+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T20:00:43.647+05:30  INFO 2040 --- [ambulance-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T20:00:43.813+05:30  INFO 2040 --- [ambulance-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:\Users\wwwan/.smart-emergency-grid/segdb user=SA
+2026-06-13T20:00:43.818+05:30  INFO 2040 --- [ambulance-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T20:00:43.869+05:30  WARN 2040 --- [ambulance-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T20:00:46.085+05:30  INFO 2040 --- [ambulance-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T20:00:46.208+05:30  INFO 2040 --- [ambulance-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T20:00:48.737+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-06-13T20:00:48.953+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path '/'
+2026-06-13T20:00:48.981+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2026-06-13T20:00:48.982+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@670199c5]]
+2026-06-13T20:00:48.982+05:30  INFO 2040 --- [ambulance-service] [           main] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2026-06-13T20:00:48.996+05:30  INFO 2040 --- [ambulance-service] [           main] c.l.g.a.AmbulanceServiceApplication      : Started AmbulanceServiceApplication in 12.319 seconds (process running for 13.183)
+2026-06-13T20:01:14.803+05:30  INFO 2040 --- [ambulance-service] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-13T20:01:14.805+05:30  INFO 2040 --- [ambulance-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-06-13T20:01:14.807+05:30  INFO 2040 --- [ambulance-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-06-13T20:01:48.866+05:30  INFO 2040 --- [ambulance-service] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project ambulance-service: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

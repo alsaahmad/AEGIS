@@ -1,0 +1,1016 @@
+{
+  "nodes": [
+    {
+      "id": "N01",
+      "lat": 12.955,
+      "lng": 77.575,
+      "traffic_signal_id": "de41bfca-9ea5-5626-981e-ba057bd553f1",
+      "road_segment": "Grid Segment 1-1"
+    },
+    {
+      "id": "N02",
+      "lat": 12.955,
+      "lng": 77.584,
+      "traffic_signal_id": "02a91809-c394-5225-b235-8afef0cca8f2",
+      "road_segment": "Grid Segment 1-2"
+    },
+    {
+      "id": "N03",
+      "lat": 12.955,
+      "lng": 77.593,
+      "traffic_signal_id": "c604e3c5-7ae6-5108-98b0-4936983eb591",
+      "road_segment": "Grid Segment 1-3"
+    },
+    {
+      "id": "N04",
+      "lat": 12.955,
+      "lng": 77.602,
+      "traffic_signal_id": "08343486-1295-52a5-b2d2-788b06aa9848",
+      "road_segment": "Grid Segment 1-4"
+    },
+    {
+      "id": "N05",
+      "lat": 12.955,
+      "lng": 77.611,
+      "traffic_signal_id": "eb0719ba-1963-5559-9683-ab65df6189e3",
+      "road_segment": "Grid Segment 1-5"
+    },
+    {
+      "id": "N06",
+      "lat": 12.955,
+      "lng": 77.62,
+      "traffic_signal_id": "639d54c5-03f5-5c9a-96cc-1efcab786a9a",
+      "road_segment": "Grid Segment 1-6"
+    },
+    {
+      "id": "N07",
+      "lat": 12.9625,
+      "lng": 77.575,
+      "traffic_signal_id": "4cca0ba0-6e9b-561d-bbde-2e0851f05970",
+      "road_segment": "Grid Segment 2-1"
+    },
+    {
+      "id": "N08",
+      "lat": 12.9625,
+      "lng": 77.584,
+      "traffic_signal_id": "6f1dc7fc-fe22-5fa2-b9c0-ed4a954c6ea4",
+      "road_segment": "Grid Segment 2-2"
+    },
+    {
+      "id": "N09",
+      "lat": 12.9625,
+      "lng": 77.593,
+      "traffic_signal_id": "b8163e36-7076-5b44-bd16-185679f60063",
+      "road_segment": "Grid Segment 2-3"
+    },
+    {
+      "id": "N10",
+      "lat": 12.9625,
+      "lng": 77.602,
+      "traffic_signal_id": "50bf647a-f2fd-5a14-a19b-78547af21886",
+      "road_segment": "Grid Segment 2-4"
+    },
+    {
+      "id": "N11",
+      "lat": 12.9625,
+      "lng": 77.611,
+      "traffic_signal_id": "ad5d1da9-e419-5827-a1a0-f8b1a1c9688b",
+      "road_segment": "Grid Segment 2-5"
+    },
+    {
+      "id": "N12",
+      "lat": 12.9625,
+      "lng": 77.62,
+      "traffic_signal_id": "b36e4119-ea5a-510a-be3b-54ba3b950f47",
+      "road_segment": "Grid Segment 2-6"
+    },
+    {
+      "id": "N13",
+      "lat": 12.97,
+      "lng": 77.575,
+      "traffic_signal_id": "c4e8d614-3624-56f9-8b74-9f2e30d86e62",
+      "road_segment": "Grid Segment 3-1"
+    },
+    {
+      "id": "N14",
+      "lat": 12.97,
+      "lng": 77.584,
+      "traffic_signal_id": "b98a238d-4096-5f52-ab60-94e391d02412",
+      "road_segment": "Grid Segment 3-2"
+    },
+    {
+      "id": "N15",
+      "lat": 12.97,
+      "lng": 77.593,
+      "traffic_signal_id": "152299ba-c52e-51e9-ba9e-1a60bf71f283",
+      "road_segment": "Grid Segment 3-3"
+    },
+    {
+      "id": "N16",
+      "lat": 12.97,
+      "lng": 77.602,
+      "traffic_signal_id": "bdd09f1b-f724-536e-afc3-ec55590f3154",
+      "road_segment": "Grid Segment 3-4"
+    },
+    {
+      "id": "N17",
+      "lat": 12.97,
+      "lng": 77.611,
+      "traffic_signal_id": "0d659b55-05fb-5232-a1a7-248c28df1180",
+      "road_segment": "Grid Segment 3-5"
+    },
+    {
+      "id": "N18",
+      "lat": 12.97,
+      "lng": 77.62,
+      "traffic_signal_id": "f5b4ebb9-9587-5d6c-a385-610dcbdd9d23",
+      "road_segment": "Grid Segment 3-6"
+    },
+    {
+      "id": "N19",
+      "lat": 12.9775,
+      "lng": 77.575,
+      "traffic_signal_id": "b3b42980-7e88-5b66-9c9a-e82271ed5ffd",
+      "road_segment": "Grid Segment 4-1"
+    },
+    {
+      "id": "N20",
+      "lat": 12.9775,
+      "lng": 77.584,
+      "traffic_signal_id": "1010fbe7-9809-5c8e-9c4b-961e07abf364",
+      "road_segment": "Grid Segment 4-2"
+    },
+    {
+      "id": "N21",
+      "lat": 12.9775,
+      "lng": 77.593,
+      "traffic_signal_id": "3d88348e-daca-50b1-a802-da0d372ea1f4",
+      "road_segment": "Grid Segment 4-3"
+    },
+    {
+      "id": "N22",
+      "lat": 12.9775,
+      "lng": 77.602,
+      "traffic_signal_id": "de098fc3-985f-5182-8d90-8b2537f89915",
+      "road_segment": "Grid Segment 4-4"
+    },
+    {
+      "id": "N23",
+      "lat": 12.9775,
+      "lng": 77.611,
+      "traffic_signal_id": "a0b818dd-c486-52f9-8795-3e46d6b3e130",
+      "road_segment": "Grid Segment 4-5"
+    },
+    {
+      "id": "N24",
+      "lat": 12.9775,
+      "lng": 77.62,
+      "traffic_signal_id": "d7b238a0-db9e-5ee9-9c2e-9e527cf785b4",
+      "road_segment": "Grid Segment 4-6"
+    },
+    {
+      "id": "N25",
+      "lat": 12.985,
+      "lng": 77.575,
+      "traffic_signal_id": "563b6212-fdcc-584d-8375-11452c18b973",
+      "road_segment": "Grid Segment 5-1"
+    },
+    {
+      "id": "N26",
+      "lat": 12.985,
+      "lng": 77.584,
+      "traffic_signal_id": "1a3f91c2-7ccc-5aa8-a9f8-10cf854e20e0",
+      "road_segment": "Grid Segment 5-2"
+    },
+    {
+      "id": "N27",
+      "lat": 12.985,
+      "lng": 77.593,
+      "traffic_signal_id": "11fc55ce-38db-56a7-b3a9-9951c16510aa",
+      "road_segment": "Grid Segment 5-3"
+    },
+    {
+      "id": "N28",
+      "lat": 12.985,
+      "lng": 77.602,
+      "traffic_signal_id": "39a0e33c-b6f7-5130-89e8-9f1b01056d73",
+      "road_segment": "Grid Segment 5-4"
+    },
+    {
+      "id": "N29",
+      "lat": 12.985,
+      "lng": 77.611,
+      "traffic_signal_id": "c2c4cb5b-055e-5e6c-b2d8-4378fd485037",
+      "road_segment": "Grid Segment 5-5"
+    },
+    {
+      "id": "N30",
+      "lat": 12.985,
+      "lng": 77.62,
+      "traffic_signal_id": "917d28bf-7e67-526f-b9ce-703794537c9e",
+      "road_segment": "Grid Segment 5-6"
+    }
+  ],
+  "edges": [
+    {
+      "from": "N01",
+      "to": "N02",
+      "road_segment": "N01-N02",
+      "distance_m": 975.3,
+      "traffic_weight": 1.36,
+      "traffic_signal_id": "02a91809-c394-5225-b235-8afef0cca8f2"
+    },
+    {
+      "from": "N02",
+      "to": "N01",
+      "road_segment": "N02-N01",
+      "distance_m": 975.3,
+      "traffic_weight": 1.23,
+      "traffic_signal_id": "de41bfca-9ea5-5626-981e-ba057bd553f1"
+    },
+    {
+      "from": "N01",
+      "to": "N07",
+      "road_segment": "N01-N07",
+      "distance_m": 834.0,
+      "traffic_weight": 1.08,
+      "traffic_signal_id": "4cca0ba0-6e9b-561d-bbde-2e0851f05970"
+    },
+    {
+      "from": "N07",
+      "to": "N01",
+      "road_segment": "N07-N01",
+      "distance_m": 834.0,
+      "traffic_weight": 1.04,
+      "traffic_signal_id": "de41bfca-9ea5-5626-981e-ba057bd553f1"
+    },
+    {
+      "from": "N02",
+      "to": "N03",
+      "road_segment": "N02-N03",
+      "distance_m": 975.3,
+      "traffic_weight": 1.44,
+      "traffic_signal_id": "c604e3c5-7ae6-5108-98b0-4936983eb591"
+    },
+    {
+      "from": "N03",
+      "to": "N02",
+      "road_segment": "N03-N02",
+      "distance_m": 975.3,
+      "traffic_weight": 1.59,
+      "traffic_signal_id": "02a91809-c394-5225-b235-8afef0cca8f2"
+    },
+    {
+      "from": "N02",
+      "to": "N08",
+      "road_segment": "N02-N08",
+      "distance_m": 834.0,
+      "traffic_weight": 1.69,
+      "traffic_signal_id": "6f1dc7fc-fe22-5fa2-b9c0-ed4a954c6ea4"
+    },
+    {
+      "from": "N08",
+      "to": "N02",
+      "road_segment": "N08-N02",
+      "distance_m": 834.0,
+      "traffic_weight": 1.57,
+      "traffic_signal_id": "02a91809-c394-5225-b235-8afef0cca8f2"
+    },
+    {
+      "from": "N03",
+      "to": "N04",
+      "road_segment": "N03-N04",
+      "distance_m": 975.3,
+      "traffic_weight": 1.19,
+      "traffic_signal_id": "08343486-1295-52a5-b2d2-788b06aa9848"
+    },
+    {
+      "from": "N04",
+      "to": "N03",
+      "road_segment": "N04-N03",
+      "distance_m": 975.3,
+      "traffic_weight": 1.08,
+      "traffic_signal_id": "c604e3c5-7ae6-5108-98b0-4936983eb591"
+    },
+    {
+      "from": "N03",
+      "to": "N09",
+      "road_segment": "N03-N09",
+      "distance_m": 834.0,
+      "traffic_weight": 1.02,
+      "traffic_signal_id": "b8163e36-7076-5b44-bd16-185679f60063"
+    },
+    {
+      "from": "N09",
+      "to": "N03",
+      "road_segment": "N09-N03",
+      "distance_m": 834.0,
+      "traffic_weight": 1.07,
+      "traffic_signal_id": "c604e3c5-7ae6-5108-98b0-4936983eb591"
+    },
+    {
+      "from": "N04",
+      "to": "N05",
+      "road_segment": "N04-N05",
+      "distance_m": 975.3,
+      "traffic_weight": 0.87,
+      "traffic_signal_id": "eb0719ba-1963-5559-9683-ab65df6189e3"
+    },
+    {
+      "from": "N05",
+      "to": "N04",
+      "road_segment": "N05-N04",
+      "distance_m": 975.3,
+      "traffic_weight": 0.83,
+      "traffic_signal_id": "08343486-1295-52a5-b2d2-788b06aa9848"
+    },
+    {
+      "from": "N04",
+      "to": "N10",
+      "road_segment": "N04-N10",
+      "distance_m": 834.0,
+      "traffic_weight": 1.45,
+      "traffic_signal_id": "50bf647a-f2fd-5a14-a19b-78547af21886"
+    },
+    {
+      "from": "N10",
+      "to": "N04",
+      "road_segment": "N10-N04",
+      "distance_m": 834.0,
+      "traffic_weight": 1.54,
+      "traffic_signal_id": "08343486-1295-52a5-b2d2-788b06aa9848"
+    },
+    {
+      "from": "N05",
+      "to": "N06",
+      "road_segment": "N05-N06",
+      "distance_m": 975.3,
+      "traffic_weight": 1.03,
+      "traffic_signal_id": "639d54c5-03f5-5c9a-96cc-1efcab786a9a"
+    },
+    {
+      "from": "N06",
+      "to": "N05",
+      "road_segment": "N06-N05",
+      "distance_m": 975.3,
+      "traffic_weight": 1.11,
+      "traffic_signal_id": "eb0719ba-1963-5559-9683-ab65df6189e3"
+    },
+    {
+      "from": "N05",
+      "to": "N11",
+      "road_segment": "N05-N11",
+      "distance_m": 834.0,
+      "traffic_weight": 1.61,
+      "traffic_signal_id": "ad5d1da9-e419-5827-a1a0-f8b1a1c9688b"
+    },
+    {
+      "from": "N11",
+      "to": "N05",
+      "road_segment": "N11-N05",
+      "distance_m": 834.0,
+      "traffic_weight": 1.45,
+      "traffic_signal_id": "eb0719ba-1963-5559-9683-ab65df6189e3"
+    },
+    {
+      "from": "N06",
+      "to": "N12",
+      "road_segment": "N06-N12",
+      "distance_m": 834.0,
+      "traffic_weight": 1.61,
+      "traffic_signal_id": "b36e4119-ea5a-510a-be3b-54ba3b950f47"
+    },
+    {
+      "from": "N12",
+      "to": "N06",
+      "road_segment": "N12-N06",
+      "distance_m": 834.0,
+      "traffic_weight": 1.79,
+      "traffic_signal_id": "639d54c5-03f5-5c9a-96cc-1efcab786a9a"
+    },
+    {
+      "from": "N07",
+      "to": "N08",
+      "road_segment": "N07-N08",
+      "distance_m": 975.3,
+      "traffic_weight": 1.12,
+      "traffic_signal_id": "6f1dc7fc-fe22-5fa2-b9c0-ed4a954c6ea4"
+    },
+    {
+      "from": "N08",
+      "to": "N07",
+      "road_segment": "N08-N07",
+      "distance_m": 975.3,
+      "traffic_weight": 1.06,
+      "traffic_signal_id": "4cca0ba0-6e9b-561d-bbde-2e0851f05970"
+    },
+    {
+      "from": "N07",
+      "to": "N13",
+      "road_segment": "N07-N13",
+      "distance_m": 834.0,
+      "traffic_weight": 1.76,
+      "traffic_signal_id": "c4e8d614-3624-56f9-8b74-9f2e30d86e62"
+    },
+    {
+      "from": "N13",
+      "to": "N07",
+      "road_segment": "N13-N07",
+      "distance_m": 834.0,
+      "traffic_weight": 1.76,
+      "traffic_signal_id": "4cca0ba0-6e9b-561d-bbde-2e0851f05970"
+    },
+    {
+      "from": "N08",
+      "to": "N09",
+      "road_segment": "N08-N09",
+      "distance_m": 975.3,
+      "traffic_weight": 0.92,
+      "traffic_signal_id": "b8163e36-7076-5b44-bd16-185679f60063"
+    },
+    {
+      "from": "N09",
+      "to": "N08",
+      "road_segment": "N09-N08",
+      "distance_m": 975.3,
+      "traffic_weight": 0.85,
+      "traffic_signal_id": "6f1dc7fc-fe22-5fa2-b9c0-ed4a954c6ea4"
+    },
+    {
+      "from": "N08",
+      "to": "N14",
+      "road_segment": "N08-N14",
+      "distance_m": 834.0,
+      "traffic_weight": 1.65,
+      "traffic_signal_id": "b98a238d-4096-5f52-ab60-94e391d02412"
+    },
+    {
+      "from": "N14",
+      "to": "N08",
+      "road_segment": "N14-N08",
+      "distance_m": 834.0,
+      "traffic_weight": 1.78,
+      "traffic_signal_id": "6f1dc7fc-fe22-5fa2-b9c0-ed4a954c6ea4"
+    },
+    {
+      "from": "N09",
+      "to": "N10",
+      "road_segment": "N09-N10",
+      "distance_m": 975.3,
+      "traffic_weight": 1.5,
+      "traffic_signal_id": "50bf647a-f2fd-5a14-a19b-78547af21886"
+    },
+    {
+      "from": "N10",
+      "to": "N09",
+      "road_segment": "N10-N09",
+      "distance_m": 975.3,
+      "traffic_weight": 1.68,
+      "traffic_signal_id": "b8163e36-7076-5b44-bd16-185679f60063"
+    },
+    {
+      "from": "N09",
+      "to": "N15",
+      "road_segment": "N09-N15",
+      "distance_m": 834.0,
+      "traffic_weight": 1.34,
+      "traffic_signal_id": "152299ba-c52e-51e9-ba9e-1a60bf71f283"
+    },
+    {
+      "from": "N15",
+      "to": "N09",
+      "road_segment": "N15-N09",
+      "distance_m": 834.0,
+      "traffic_weight": 1.6,
+      "traffic_signal_id": "b8163e36-7076-5b44-bd16-185679f60063"
+    },
+    {
+      "from": "N10",
+      "to": "N11",
+      "road_segment": "N10-N11",
+      "distance_m": 975.3,
+      "traffic_weight": 1.15,
+      "traffic_signal_id": "ad5d1da9-e419-5827-a1a0-f8b1a1c9688b"
+    },
+    {
+      "from": "N11",
+      "to": "N10",
+      "road_segment": "N11-N10",
+      "distance_m": 975.3,
+      "traffic_weight": 1.23,
+      "traffic_signal_id": "50bf647a-f2fd-5a14-a19b-78547af21886"
+    },
+    {
+      "from": "N10",
+      "to": "N16",
+      "road_segment": "N10-N16",
+      "distance_m": 834.0,
+      "traffic_weight": 1.63,
+      "traffic_signal_id": "bdd09f1b-f724-536e-afc3-ec55590f3154"
+    },
+    {
+      "from": "N16",
+      "to": "N10",
+      "road_segment": "N16-N10",
+      "distance_m": 834.0,
+      "traffic_weight": 1.77,
+      "traffic_signal_id": "50bf647a-f2fd-5a14-a19b-78547af21886"
+    },
+    {
+      "from": "N11",
+      "to": "N12",
+      "road_segment": "N11-N12",
+      "distance_m": 975.3,
+      "traffic_weight": 1.54,
+      "traffic_signal_id": "b36e4119-ea5a-510a-be3b-54ba3b950f47"
+    },
+    {
+      "from": "N12",
+      "to": "N11",
+      "road_segment": "N12-N11",
+      "distance_m": 975.3,
+      "traffic_weight": 1.65,
+      "traffic_signal_id": "ad5d1da9-e419-5827-a1a0-f8b1a1c9688b"
+    },
+    {
+      "from": "N11",
+      "to": "N17",
+      "road_segment": "N11-N17",
+      "distance_m": 834.0,
+      "traffic_weight": 1.5,
+      "traffic_signal_id": "0d659b55-05fb-5232-a1a7-248c28df1180"
+    },
+    {
+      "from": "N17",
+      "to": "N11",
+      "road_segment": "N17-N11",
+      "distance_m": 834.0,
+      "traffic_weight": 1.37,
+      "traffic_signal_id": "ad5d1da9-e419-5827-a1a0-f8b1a1c9688b"
+    },
+    {
+      "from": "N12",
+      "to": "N18",
+      "road_segment": "N12-N18",
+      "distance_m": 834.0,
+      "traffic_weight": 1.03,
+      "traffic_signal_id": "f5b4ebb9-9587-5d6c-a385-610dcbdd9d23"
+    },
+    {
+      "from": "N18",
+      "to": "N12",
+      "road_segment": "N18-N12",
+      "distance_m": 834.0,
+      "traffic_weight": 1.02,
+      "traffic_signal_id": "b36e4119-ea5a-510a-be3b-54ba3b950f47"
+    },
+    {
+      "from": "N13",
+      "to": "N14",
+      "road_segment": "N13-N14",
+      "distance_m": 975.2,
+      "traffic_weight": 0.91,
+      "traffic_signal_id": "b98a238d-4096-5f52-ab60-94e391d02412"
+    },
+    {
+      "from": "N14",
+      "to": "N13",
+      "road_segment": "N14-N13",
+      "distance_m": 975.2,
+      "traffic_weight": 0.88,
+      "traffic_signal_id": "c4e8d614-3624-56f9-8b74-9f2e30d86e62"
+    },
+    {
+      "from": "N13",
+      "to": "N19",
+      "road_segment": "N13-N19",
+      "distance_m": 834.0,
+      "traffic_weight": 0.9,
+      "traffic_signal_id": "b3b42980-7e88-5b66-9c9a-e82271ed5ffd"
+    },
+    {
+      "from": "N19",
+      "to": "N13",
+      "road_segment": "N19-N13",
+      "distance_m": 834.0,
+      "traffic_weight": 0.89,
+      "traffic_signal_id": "c4e8d614-3624-56f9-8b74-9f2e30d86e62"
+    },
+    {
+      "from": "N14",
+      "to": "N15",
+      "road_segment": "N14-N15",
+      "distance_m": 975.2,
+      "traffic_weight": 1.36,
+      "traffic_signal_id": "152299ba-c52e-51e9-ba9e-1a60bf71f283"
+    },
+    {
+      "from": "N15",
+      "to": "N14",
+      "road_segment": "N15-N14",
+      "distance_m": 975.2,
+      "traffic_weight": 1.37,
+      "traffic_signal_id": "b98a238d-4096-5f52-ab60-94e391d02412"
+    },
+    {
+      "from": "N14",
+      "to": "N20",
+      "road_segment": "N14-N20",
+      "distance_m": 834.0,
+      "traffic_weight": 1.17,
+      "traffic_signal_id": "1010fbe7-9809-5c8e-9c4b-961e07abf364"
+    },
+    {
+      "from": "N20",
+      "to": "N14",
+      "road_segment": "N20-N14",
+      "distance_m": 834.0,
+      "traffic_weight": 1.13,
+      "traffic_signal_id": "b98a238d-4096-5f52-ab60-94e391d02412"
+    },
+    {
+      "from": "N15",
+      "to": "N16",
+      "road_segment": "N15-N16",
+      "distance_m": 975.2,
+      "traffic_weight": 1.06,
+      "traffic_signal_id": "bdd09f1b-f724-536e-afc3-ec55590f3154"
+    },
+    {
+      "from": "N16",
+      "to": "N15",
+      "road_segment": "N16-N15",
+      "distance_m": 975.2,
+      "traffic_weight": 1.25,
+      "traffic_signal_id": "152299ba-c52e-51e9-ba9e-1a60bf71f283"
+    },
+    {
+      "from": "N15",
+      "to": "N21",
+      "road_segment": "N15-N21",
+      "distance_m": 834.0,
+      "traffic_weight": 1.45,
+      "traffic_signal_id": "3d88348e-daca-50b1-a802-da0d372ea1f4"
+    },
+    {
+      "from": "N21",
+      "to": "N15",
+      "road_segment": "N21-N15",
+      "distance_m": 834.0,
+      "traffic_weight": 1.57,
+      "traffic_signal_id": "152299ba-c52e-51e9-ba9e-1a60bf71f283"
+    },
+    {
+      "from": "N16",
+      "to": "N17",
+      "road_segment": "N16-N17",
+      "distance_m": 975.2,
+      "traffic_weight": 0.99,
+      "traffic_signal_id": "0d659b55-05fb-5232-a1a7-248c28df1180"
+    },
+    {
+      "from": "N17",
+      "to": "N16",
+      "road_segment": "N17-N16",
+      "distance_m": 975.2,
+      "traffic_weight": 1.11,
+      "traffic_signal_id": "bdd09f1b-f724-536e-afc3-ec55590f3154"
+    },
+    {
+      "from": "N16",
+      "to": "N22",
+      "road_segment": "N16-N22",
+      "distance_m": 834.0,
+      "traffic_weight": 0.96,
+      "traffic_signal_id": "de098fc3-985f-5182-8d90-8b2537f89915"
+    },
+    {
+      "from": "N22",
+      "to": "N16",
+      "road_segment": "N22-N16",
+      "distance_m": 834.0,
+      "traffic_weight": 0.97,
+      "traffic_signal_id": "bdd09f1b-f724-536e-afc3-ec55590f3154"
+    },
+    {
+      "from": "N17",
+      "to": "N18",
+      "road_segment": "N17-N18",
+      "distance_m": 975.2,
+      "traffic_weight": 1.64,
+      "traffic_signal_id": "f5b4ebb9-9587-5d6c-a385-610dcbdd9d23"
+    },
+    {
+      "from": "N18",
+      "to": "N17",
+      "road_segment": "N18-N17",
+      "distance_m": 975.2,
+      "traffic_weight": 1.79,
+      "traffic_signal_id": "0d659b55-05fb-5232-a1a7-248c28df1180"
+    },
+    {
+      "from": "N17",
+      "to": "N23",
+      "road_segment": "N17-N23",
+      "distance_m": 834.0,
+      "traffic_weight": 1.36,
+      "traffic_signal_id": "a0b818dd-c486-52f9-8795-3e46d6b3e130"
+    },
+    {
+      "from": "N23",
+      "to": "N17",
+      "road_segment": "N23-N17",
+      "distance_m": 834.0,
+      "traffic_weight": 1.5,
+      "traffic_signal_id": "0d659b55-05fb-5232-a1a7-248c28df1180"
+    },
+    {
+      "from": "N18",
+      "to": "N24",
+      "road_segment": "N18-N24",
+      "distance_m": 834.0,
+      "traffic_weight": 1.64,
+      "traffic_signal_id": "d7b238a0-db9e-5ee9-9c2e-9e527cf785b4"
+    },
+    {
+      "from": "N24",
+      "to": "N18",
+      "road_segment": "N24-N18",
+      "distance_m": 834.0,
+      "traffic_weight": 1.86,
+      "traffic_signal_id": "f5b4ebb9-9587-5d6c-a385-610dcbdd9d23"
+    },
+    {
+      "from": "N19",
+      "to": "N20",
+      "road_segment": "N19-N20",
+      "distance_m": 975.2,
+      "traffic_weight": 1.03,
+      "traffic_signal_id": "1010fbe7-9809-5c8e-9c4b-961e07abf364"
+    },
+    {
+      "from": "N20",
+      "to": "N19",
+      "road_segment": "N20-N19",
+      "distance_m": 975.2,
+      "traffic_weight": 0.94,
+      "traffic_signal_id": "b3b42980-7e88-5b66-9c9a-e82271ed5ffd"
+    },
+    {
+      "from": "N19",
+      "to": "N25",
+      "road_segment": "N19-N25",
+      "distance_m": 834.0,
+      "traffic_weight": 1.12,
+      "traffic_signal_id": "563b6212-fdcc-584d-8375-11452c18b973"
+    },
+    {
+      "from": "N25",
+      "to": "N19",
+      "road_segment": "N25-N19",
+      "distance_m": 834.0,
+      "traffic_weight": 1.1,
+      "traffic_signal_id": "b3b42980-7e88-5b66-9c9a-e82271ed5ffd"
+    },
+    {
+      "from": "N20",
+      "to": "N21",
+      "road_segment": "N20-N21",
+      "distance_m": 975.2,
+      "traffic_weight": 1.02,
+      "traffic_signal_id": "3d88348e-daca-50b1-a802-da0d372ea1f4"
+    },
+    {
+      "from": "N21",
+      "to": "N20",
+      "road_segment": "N21-N20",
+      "distance_m": 975.2,
+      "traffic_weight": 1.21,
+      "traffic_signal_id": "1010fbe7-9809-5c8e-9c4b-961e07abf364"
+    },
+    {
+      "from": "N20",
+      "to": "N26",
+      "road_segment": "N20-N26",
+      "distance_m": 834.0,
+      "traffic_weight": 1.68,
+      "traffic_signal_id": "1a3f91c2-7ccc-5aa8-a9f8-10cf854e20e0"
+    },
+    {
+      "from": "N26",
+      "to": "N20",
+      "road_segment": "N26-N20",
+      "distance_m": 834.0,
+      "traffic_weight": 1.67,
+      "traffic_signal_id": "1010fbe7-9809-5c8e-9c4b-961e07abf364"
+    },
+    {
+      "from": "N21",
+      "to": "N22",
+      "road_segment": "N21-N22",
+      "distance_m": 975.2,
+      "traffic_weight": 1.37,
+      "traffic_signal_id": "de098fc3-985f-5182-8d90-8b2537f89915"
+    },
+    {
+      "from": "N22",
+      "to": "N21",
+      "road_segment": "N22-N21",
+      "distance_m": 975.2,
+      "traffic_weight": 1.4,
+      "traffic_signal_id": "3d88348e-daca-50b1-a802-da0d372ea1f4"
+    },
+    {
+      "from": "N21",
+      "to": "N27",
+      "road_segment": "N21-N27",
+      "distance_m": 834.0,
+      "traffic_weight": 1.71,
+      "traffic_signal_id": "11fc55ce-38db-56a7-b3a9-9951c16510aa"
+    },
+    {
+      "from": "N27",
+      "to": "N21",
+      "road_segment": "N27-N21",
+      "distance_m": 834.0,
+      "traffic_weight": 1.77,
+      "traffic_signal_id": "3d88348e-daca-50b1-a802-da0d372ea1f4"
+    },
+    {
+      "from": "N22",
+      "to": "N23",
+      "road_segment": "N22-N23",
+      "distance_m": 975.2,
+      "traffic_weight": 1.06,
+      "traffic_signal_id": "a0b818dd-c486-52f9-8795-3e46d6b3e130"
+    },
+    {
+      "from": "N23",
+      "to": "N22",
+      "road_segment": "N23-N22",
+      "distance_m": 975.2,
+      "traffic_weight": 1.03,
+      "traffic_signal_id": "de098fc3-985f-5182-8d90-8b2537f89915"
+    },
+    {
+      "from": "N22",
+      "to": "N28",
+      "road_segment": "N22-N28",
+      "distance_m": 834.0,
+      "traffic_weight": 1.36,
+      "traffic_signal_id": "39a0e33c-b6f7-5130-89e8-9f1b01056d73"
+    },
+    {
+      "from": "N28",
+      "to": "N22",
+      "road_segment": "N28-N22",
+      "distance_m": 834.0,
+      "traffic_weight": 1.33,
+      "traffic_signal_id": "de098fc3-985f-5182-8d90-8b2537f89915"
+    },
+    {
+      "from": "N23",
+      "to": "N24",
+      "road_segment": "N23-N24",
+      "distance_m": 975.2,
+      "traffic_weight": 1.32,
+      "traffic_signal_id": "d7b238a0-db9e-5ee9-9c2e-9e527cf785b4"
+    },
+    {
+      "from": "N24",
+      "to": "N23",
+      "road_segment": "N24-N23",
+      "distance_m": 975.2,
+      "traffic_weight": 1.54,
+      "traffic_signal_id": "a0b818dd-c486-52f9-8795-3e46d6b3e130"
+    },
+    {
+      "from": "N23",
+      "to": "N29",
+      "road_segment": "N23-N29",
+      "distance_m": 834.0,
+      "traffic_weight": 1.2,
+      "traffic_signal_id": "c2c4cb5b-055e-5e6c-b2d8-4378fd485037"
+    },
+    {
+      "from": "N29",
+      "to": "N23",
+      "road_segment": "N29-N23",
+      "distance_m": 834.0,
+      "traffic_weight": 1.16,
+      "traffic_signal_id": "a0b818dd-c486-52f9-8795-3e46d6b3e130"
+    },
+    {
+      "from": "N24",
+      "to": "N30",
+      "road_segment": "N24-N30",
+      "distance_m": 834.0,
+      "traffic_weight": 1.8,
+      "traffic_signal_id": "917d28bf-7e67-526f-b9ce-703794537c9e"
+    },
+    {
+      "from": "N30",
+      "to": "N24",
+      "road_segment": "N30-N24",
+      "distance_m": 834.0,
+      "traffic_weight": 1.9,
+      "traffic_signal_id": "d7b238a0-db9e-5ee9-9c2e-9e527cf785b4"
+    },
+    {
+      "from": "N25",
+      "to": "N26",
+      "road_segment": "N25-N26",
+      "distance_m": 975.2,
+      "traffic_weight": 0.92,
+      "traffic_signal_id": "1a3f91c2-7ccc-5aa8-a9f8-10cf854e20e0"
+    },
+    {
+      "from": "N26",
+      "to": "N25",
+      "road_segment": "N26-N25",
+      "distance_m": 975.2,
+      "traffic_weight": 0.84,
+      "traffic_signal_id": "563b6212-fdcc-584d-8375-11452c18b973"
+    },
+    {
+      "from": "N26",
+      "to": "N27",
+      "road_segment": "N26-N27",
+      "distance_m": 975.2,
+      "traffic_weight": 0.94,
+      "traffic_signal_id": "11fc55ce-38db-56a7-b3a9-9951c16510aa"
+    },
+    {
+      "from": "N27",
+      "to": "N26",
+      "road_segment": "N27-N26",
+      "distance_m": 975.2,
+      "traffic_weight": 1.02,
+      "traffic_signal_id": "1a3f91c2-7ccc-5aa8-a9f8-10cf854e20e0"
+    },
+    {
+      "from": "N27",
+      "to": "N28",
+      "road_segment": "N27-N28",
+      "distance_m": 975.2,
+      "traffic_weight": 1.48,
+      "traffic_signal_id": "39a0e33c-b6f7-5130-89e8-9f1b01056d73"
+    },
+    {
+      "from": "N28",
+      "to": "N27",
+      "road_segment": "N28-N27",
+      "distance_m": 975.2,
+      "traffic_weight": 1.52,
+      "traffic_signal_id": "11fc55ce-38db-56a7-b3a9-9951c16510aa"
+    },
+    {
+      "from": "N28",
+      "to": "N29",
+      "road_segment": "N28-N29",
+      "distance_m": 975.2,
+      "traffic_weight": 0.9,
+      "traffic_signal_id": "c2c4cb5b-055e-5e6c-b2d8-4378fd485037"
+    },
+    {
+      "from": "N29",
+      "to": "N28",
+      "road_segment": "N29-N28",
+      "distance_m": 975.2,
+      "traffic_weight": 0.91,
+      "traffic_signal_id": "39a0e33c-b6f7-5130-89e8-9f1b01056d73"
+    },
+    {
+      "from": "N29",
+      "to": "N30",
+      "road_segment": "N29-N30",
+      "distance_m": 975.2,
+      "traffic_weight": 1.65,
+      "traffic_signal_id": "917d28bf-7e67-526f-b9ce-703794537c9e"
+    },
+    {
+      "from": "N30",
+      "to": "N29",
+      "road_segment": "N30-N29",
+      "distance_m": 975.2,
+      "traffic_weight": 1.75,
+      "traffic_signal_id": "c2c4cb5b-055e-5e6c-b2d8-4378fd485037"
+    }
+  ],
+  "sample_request": {
+    "start": {
+      "lat": 12.9698,
+      "lng": 77.5946
+    },
+    "end": {
+      "lat": 12.9765,
+      "lng": 77.5993
+    },
+    "algorithm": "astar",
+    "average_speed_kmph": 42,
+    "graph": {
+      "nodes": "<use nodes above>",
+      "edges": "<use edges above>"
+    }
+  }
+}

@@ -1,0 +1,241 @@
+victim_count,injury_type,incident_description,severity
+3,overdose,unconscious overdose shallow breathing lips blue in office child involved,CRITICAL
+3,minor burn,small burn on finger no blister crowd gathering,LOW
+5,minor cut,small cut mild bleeding patient alert on main road in office at home,LOW
+1,fever,high temperature but breathing normally alert please hurry on main road at home,LOW
+2,bleeding,bleeding heavily large blood loss pressure not stopping on main road elderly patient near library,CRITICAL
+2,overdose,unconscious overdose shallow breathing lips blue elderly patient please hurry at home,CRITICAL
+1,head injury,dizzy after fall vomiting once conscious near library on main road crowd gathering,MEDIUM
+2,stroke,face drooping cannot speak arm weakness sudden collapse at home near library,CRITICAL
+3,fever,high temperature but breathing normally alert needs help on main road,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk child involved during sports event in office,MEDIUM
+4,burns,severe burns face smoke inhalation difficulty breathing in office,CRITICAL
+1,bleeding,moderate bleeding cut deep but conscious please hurry on main road crowd gathering,MEDIUM
+2,accident,bike crash conscious shoulder pain on main road during sports event elderly patient,MEDIUM
+4,bleeding,bleeding heavily large blood loss pressure not stopping near library needs help,CRITICAL
+1,fracture,possible broken leg severe pain swelling cannot walk elderly patient,MEDIUM
+3,panic,panic attack anxious breathing fast but conscious at home child involved,LOW
+3,burns,second degree burn painful blisters on arm in office,MEDIUM
+1,burns,second degree burn painful blisters on arm near library,MEDIUM
+1,overdose,unconscious overdose shallow breathing lips blue needs help at home near library,CRITICAL
+4,burns,severe burns face smoke inhalation difficulty breathing child involved,CRITICAL
+2,asthma,breathing difficulty wheezing inhaler not helping needs help child involved,MEDIUM
+1,accident,road accident multiple victims trapped unconscious severe trauma crowd gathering child involved,CRITICAL
+2,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient,CRITICAL
+5,burns,severe burns face smoke inhalation difficulty breathing at home during sports event elderly patient,CRITICAL
+1,burns,second degree burn painful blisters on arm crowd gathering elderly patient,MEDIUM
+1,stroke,face drooping cannot speak arm weakness sudden collapse during sports event,CRITICAL
+1,sprain,ankle sprain mild swelling can walk please hurry on main road,LOW
+5,fever,high temperature but breathing normally alert near library crowd gathering needs help,LOW
+1,asthma,breathing difficulty wheezing inhaler not helping on main road elderly patient,MEDIUM
+1,minor burn,small burn on finger no blister in office please hurry,LOW
+2,bleeding,moderate bleeding cut deep but conscious in office child involved,MEDIUM
+1,minor burn,small burn on finger no blister needs help,LOW
+1,fall,slipped and fell mild pain no visible injury elderly patient,LOW
+4,accident,road accident multiple victims trapped unconscious severe trauma in office on main road crowd gathering,CRITICAL
+2,asthma,breathing difficulty wheezing inhaler not helping near library elderly patient in office,MEDIUM
+2,head injury,dizzy after fall vomiting once conscious please hurry at home,MEDIUM
+1,minor burn,small burn on finger no blister on main road,LOW
+5,burns,second degree burn painful blisters on arm needs help in office near library,MEDIUM
+1,burns,severe burns face smoke inhalation difficulty breathing please hurry,CRITICAL
+4,bleeding,bleeding heavily large blood loss pressure not stopping in office during sports event child involved,CRITICAL
+1,head injury,dizzy after fall vomiting once conscious child involved on main road near library,MEDIUM
+1,panic,panic attack anxious breathing fast but conscious on main road please hurry,LOW
+2,fracture,possible broken leg severe pain swelling cannot walk at home crowd gathering,MEDIUM
+3,sprain,ankle sprain mild swelling can walk child involved,LOW
+3,asthma,breathing difficulty wheezing inhaler not helping in office crowd gathering on main road,MEDIUM
+1,stroke,face drooping cannot speak arm weakness sudden collapse in office,CRITICAL
+2,minor burn,small burn on finger no blister child involved,LOW
+3,cardiac arrest,person unconscious not breathing chest pain collapsed in office elderly patient child involved,CRITICAL
+1,fever,high temperature but breathing normally alert in office near library needs help,LOW
+5,cardiac arrest,person unconscious not breathing chest pain collapsed at home child involved needs help,CRITICAL
+1,burns,second degree burn painful blisters on arm crowd gathering please hurry in office,MEDIUM
+1,minor cut,small cut mild bleeding patient alert in office on main road needs help,LOW
+5,sprain,ankle sprain mild swelling can walk near library,LOW
+2,bleeding,moderate bleeding cut deep but conscious child involved please hurry,MEDIUM
+1,cardiac arrest,person unconscious not breathing chest pain collapsed in office,CRITICAL
+1,minor burn,small burn on finger no blister elderly patient during sports event,LOW
+1,minor burn,small burn on finger no blister elderly patient,LOW
+1,minor burn,small burn on finger no blister child involved,LOW
+4,panic,panic attack anxious breathing fast but conscious at home during sports event,LOW
+1,sprain,ankle sprain mild swelling can walk crowd gathering at home in office,LOW
+1,head injury,dizzy after fall vomiting once conscious elderly patient,MEDIUM
+3,sprain,ankle sprain mild swelling can walk near library please hurry,LOW
+1,burns,second degree burn painful blisters on arm please hurry on main road at home,MEDIUM
+2,minor burn,small burn on finger no blister crowd gathering please hurry during sports event,LOW
+4,burns,severe burns face smoke inhalation difficulty breathing child involved during sports event,CRITICAL
+5,stroke,face drooping cannot speak arm weakness sudden collapse at home near library in office,CRITICAL
+1,bleeding,bleeding heavily large blood loss pressure not stopping in office near library child involved,CRITICAL
+1,burns,second degree burn painful blisters on arm in office needs help,MEDIUM
+5,burns,second degree burn painful blisters on arm during sports event,MEDIUM
+1,minor cut,small cut mild bleeding patient alert please hurry,LOW
+1,sprain,ankle sprain mild swelling can walk child involved please hurry crowd gathering,LOW
+3,bleeding,moderate bleeding cut deep but conscious near library,MEDIUM
+1,sprain,ankle sprain mild swelling can walk child involved at home,LOW
+1,bleeding,moderate bleeding cut deep but conscious child involved please hurry,MEDIUM
+1,asthma,breathing difficulty wheezing inhaler not helping on main road elderly patient,MEDIUM
+3,burns,second degree burn painful blisters on arm on main road near library,MEDIUM
+2,fracture,possible broken leg severe pain swelling cannot walk please hurry needs help during sports event,MEDIUM
+1,head injury,dizzy after fall vomiting once conscious please hurry child involved at home,MEDIUM
+1,fracture,possible broken leg severe pain swelling cannot walk on main road needs help please hurry,MEDIUM
+1,panic,panic attack anxious breathing fast but conscious needs help near library,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk child involved during sports event,MEDIUM
+8,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient,CRITICAL
+5,asthma,breathing difficulty wheezing inhaler not helping in office during sports event,MEDIUM
+1,fall,slipped and fell mild pain no visible injury at home crowd gathering,LOW
+1,panic,panic attack anxious breathing fast but conscious in office,LOW
+4,asthma,breathing difficulty wheezing inhaler not helping please hurry elderly patient in office,MEDIUM
+3,cardiac arrest,person unconscious not breathing chest pain collapsed in office,CRITICAL
+1,panic,panic attack anxious breathing fast but conscious at home crowd gathering,LOW
+1,fever,high temperature but breathing normally alert in office,LOW
+1,accident,bike crash conscious shoulder pain near library child involved,MEDIUM
+1,stroke,face drooping cannot speak arm weakness sudden collapse crowd gathering on main road,CRITICAL
+3,burns,severe burns face smoke inhalation difficulty breathing at home,CRITICAL
+2,accident,road accident multiple victims trapped unconscious severe trauma in office crowd gathering child involved,CRITICAL
+2,accident,road accident multiple victims trapped unconscious severe trauma near library,CRITICAL
+1,asthma,breathing difficulty wheezing inhaler not helping in office please hurry crowd gathering,MEDIUM
+3,stroke,face drooping cannot speak arm weakness sudden collapse needs help on main road crowd gathering,CRITICAL
+1,fever,high temperature but breathing normally alert on main road elderly patient,LOW
+1,bleeding,bleeding heavily large blood loss pressure not stopping at home in office,CRITICAL
+1,sprain,ankle sprain mild swelling can walk elderly patient,LOW
+5,minor cut,small cut mild bleeding patient alert during sports event on main road,LOW
+3,panic,panic attack anxious breathing fast but conscious during sports event crowd gathering,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk at home please hurry near library,MEDIUM
+2,minor burn,small burn on finger no blister crowd gathering during sports event,LOW
+1,cardiac arrest,person unconscious not breathing chest pain collapsed needs help,CRITICAL
+8,stroke,face drooping cannot speak arm weakness sudden collapse in office,CRITICAL
+1,stroke,face drooping cannot speak arm weakness sudden collapse please hurry,CRITICAL
+1,bleeding,moderate bleeding cut deep but conscious crowd gathering,MEDIUM
+2,accident,bike crash conscious shoulder pain child involved,MEDIUM
+1,cardiac arrest,person unconscious not breathing chest pain collapsed elderly patient,CRITICAL
+1,sprain,ankle sprain mild swelling can walk during sports event in office,LOW
+1,head injury,dizzy after fall vomiting once conscious needs help,MEDIUM
+2,minor burn,small burn on finger no blister during sports event,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk elderly patient crowd gathering,MEDIUM
+1,fall,slipped and fell mild pain no visible injury on main road crowd gathering elderly patient,LOW
+1,cardiac arrest,person unconscious not breathing chest pain collapsed crowd gathering,CRITICAL
+1,head injury,dizzy after fall vomiting once conscious crowd gathering during sports event needs help,MEDIUM
+2,fever,high temperature but breathing normally alert crowd gathering during sports event,LOW
+5,burns,severe burns face smoke inhalation difficulty breathing at home,CRITICAL
+1,burns,severe burns face smoke inhalation difficulty breathing please hurry near library in office,CRITICAL
+2,minor cut,small cut mild bleeding patient alert elderly patient at home,LOW
+4,cardiac arrest,person unconscious not breathing chest pain collapsed during sports event,CRITICAL
+1,stroke,face drooping cannot speak arm weakness sudden collapse needs help,CRITICAL
+3,stroke,face drooping cannot speak arm weakness sudden collapse in office near library on main road,CRITICAL
+2,sprain,ankle sprain mild swelling can walk needs help during sports event crowd gathering,LOW
+1,accident,bike crash conscious shoulder pain on main road child involved crowd gathering,MEDIUM
+1,burns,second degree burn painful blisters on arm near library needs help,MEDIUM
+2,stroke,face drooping cannot speak arm weakness sudden collapse on main road near library in office,CRITICAL
+1,bleeding,moderate bleeding cut deep but conscious elderly patient on main road,MEDIUM
+2,overdose,unconscious overdose shallow breathing lips blue at home child involved,CRITICAL
+1,cardiac arrest,person unconscious not breathing chest pain collapsed during sports event,CRITICAL
+2,fracture,possible broken leg severe pain swelling cannot walk crowd gathering during sports event,MEDIUM
+3,accident,road accident multiple victims trapped unconscious severe trauma during sports event,CRITICAL
+3,overdose,unconscious overdose shallow breathing lips blue crowd gathering please hurry,CRITICAL
+1,fever,high temperature but breathing normally alert during sports event on main road near library,LOW
+1,minor cut,small cut mild bleeding patient alert crowd gathering,LOW
+3,bleeding,bleeding heavily large blood loss pressure not stopping please hurry,CRITICAL
+1,bleeding,bleeding heavily large blood loss pressure not stopping near library needs help,CRITICAL
+1,bleeding,moderate bleeding cut deep but conscious needs help crowd gathering,MEDIUM
+1,fever,high temperature but breathing normally alert child involved,LOW
+1,sprain,ankle sprain mild swelling can walk please hurry,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk near library please hurry during sports event,MEDIUM
+3,accident,road accident multiple victims trapped unconscious severe trauma crowd gathering,CRITICAL
+1,burns,severe burns face smoke inhalation difficulty breathing please hurry near library on main road,CRITICAL
+3,fall,slipped and fell mild pain no visible injury during sports event,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk crowd gathering near library in office,MEDIUM
+1,cardiac arrest,person unconscious not breathing chest pain collapsed crowd gathering,CRITICAL
+4,sprain,ankle sprain mild swelling can walk please hurry,LOW
+5,overdose,unconscious overdose shallow breathing lips blue at home on main road,CRITICAL
+3,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient please hurry,CRITICAL
+2,minor burn,small burn on finger no blister near library,LOW
+3,panic,panic attack anxious breathing fast but conscious near library needs help on main road,LOW
+8,bleeding,bleeding heavily large blood loss pressure not stopping needs help please hurry,CRITICAL
+3,bleeding,bleeding heavily large blood loss pressure not stopping during sports event,CRITICAL
+1,asthma,breathing difficulty wheezing inhaler not helping near library at home please hurry,MEDIUM
+8,bleeding,bleeding heavily large blood loss pressure not stopping near library child involved needs help,CRITICAL
+1,head injury,dizzy after fall vomiting once conscious in office,MEDIUM
+1,panic,panic attack anxious breathing fast but conscious please hurry,LOW
+2,accident,road accident multiple victims trapped unconscious severe trauma on main road elderly patient,CRITICAL
+1,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient,CRITICAL
+2,asthma,breathing difficulty wheezing inhaler not helping near library during sports event,MEDIUM
+4,panic,panic attack anxious breathing fast but conscious needs help,LOW
+1,sprain,ankle sprain mild swelling can walk crowd gathering,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk on main road in office child involved,MEDIUM
+5,accident,road accident multiple victims trapped unconscious severe trauma child involved,CRITICAL
+2,bleeding,moderate bleeding cut deep but conscious in office on main road crowd gathering,MEDIUM
+5,accident,bike crash conscious shoulder pain during sports event,MEDIUM
+1,fall,slipped and fell mild pain no visible injury at home on main road needs help,LOW
+1,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient,CRITICAL
+1,bleeding,bleeding heavily large blood loss pressure not stopping please hurry child involved during sports event,CRITICAL
+1,burns,second degree burn painful blisters on arm on main road,MEDIUM
+1,burns,second degree burn painful blisters on arm in office please hurry crowd gathering,MEDIUM
+1,fever,high temperature but breathing normally alert in office on main road,LOW
+2,overdose,unconscious overdose shallow breathing lips blue on main road during sports event,CRITICAL
+1,bleeding,bleeding heavily large blood loss pressure not stopping during sports event,CRITICAL
+1,cardiac arrest,person unconscious not breathing chest pain collapsed at home child involved,CRITICAL
+2,minor cut,small cut mild bleeding patient alert needs help,LOW
+1,bleeding,moderate bleeding cut deep but conscious crowd gathering,MEDIUM
+1,fall,slipped and fell mild pain no visible injury please hurry,LOW
+3,head injury,dizzy after fall vomiting once conscious near library elderly patient,MEDIUM
+3,stroke,face drooping cannot speak arm weakness sudden collapse crowd gathering,CRITICAL
+2,fall,slipped and fell mild pain no visible injury elderly patient on main road at home,LOW
+2,head injury,dizzy after fall vomiting once conscious near library,MEDIUM
+1,asthma,breathing difficulty wheezing inhaler not helping in office,MEDIUM
+2,burns,second degree burn painful blisters on arm child involved during sports event,MEDIUM
+2,fracture,possible broken leg severe pain swelling cannot walk elderly patient,MEDIUM
+1,fall,slipped and fell mild pain no visible injury child involved needs help,LOW
+2,sprain,ankle sprain mild swelling can walk please hurry,LOW
+2,accident,road accident multiple victims trapped unconscious severe trauma crowd gathering,CRITICAL
+8,bleeding,bleeding heavily large blood loss pressure not stopping needs help during sports event,CRITICAL
+2,stroke,face drooping cannot speak arm weakness sudden collapse elderly patient,CRITICAL
+2,burns,severe burns face smoke inhalation difficulty breathing child involved during sports event,CRITICAL
+1,minor cut,small cut mild bleeding patient alert in office child involved,LOW
+2,accident,road accident multiple victims trapped unconscious severe trauma on main road,CRITICAL
+1,sprain,ankle sprain mild swelling can walk in office,LOW
+3,fracture,possible broken leg severe pain swelling cannot walk on main road,MEDIUM
+2,fever,high temperature but breathing normally alert near library please hurry,LOW
+1,accident,bike crash conscious shoulder pain near library,MEDIUM
+2,fever,high temperature but breathing normally alert needs help during sports event,LOW
+3,bleeding,bleeding heavily large blood loss pressure not stopping at home please hurry needs help,CRITICAL
+1,panic,panic attack anxious breathing fast but conscious near library,LOW
+1,fracture,possible broken leg severe pain swelling cannot walk on main road needs help in office,MEDIUM
+1,burns,severe burns face smoke inhalation difficulty breathing near library crowd gathering,CRITICAL
+5,panic,panic attack anxious breathing fast but conscious in office crowd gathering,LOW
+1,panic,panic attack anxious breathing fast but conscious child involved,LOW
+1,burns,second degree burn painful blisters on arm child involved at home in office,MEDIUM
+1,bleeding,bleeding heavily large blood loss pressure not stopping on main road,CRITICAL
+2,bleeding,bleeding heavily large blood loss pressure not stopping on main road in office,CRITICAL
+1,bleeding,moderate bleeding cut deep but conscious please hurry near library,MEDIUM
+2,stroke,face drooping cannot speak arm weakness sudden collapse please hurry in office,CRITICAL
+4,fall,slipped and fell mild pain no visible injury during sports event,LOW
+1,bleeding,moderate bleeding cut deep but conscious near library crowd gathering,MEDIUM
+1,minor burn,small burn on finger no blister in office,LOW
+8,accident,road accident multiple victims trapped unconscious severe trauma child involved crowd gathering,CRITICAL
+1,accident,bike crash conscious shoulder pain crowd gathering needs help,MEDIUM
+4,head injury,dizzy after fall vomiting once conscious please hurry elderly patient at home,MEDIUM
+1,fracture,possible broken leg severe pain swelling cannot walk needs help on main road please hurry,MEDIUM
+4,bleeding,bleeding heavily large blood loss pressure not stopping crowd gathering please hurry at home,CRITICAL
+3,accident,bike crash conscious shoulder pain near library in office on main road,MEDIUM
+5,minor burn,small burn on finger no blister during sports event needs help,LOW
+1,sprain,ankle sprain mild swelling can walk in office needs help on main road,LOW
+3,fracture,possible broken leg severe pain swelling cannot walk in office,MEDIUM
+3,minor cut,small cut mild bleeding patient alert crowd gathering at home needs help,LOW
+1,fall,slipped and fell mild pain no visible injury at home,LOW
+1,bleeding,moderate bleeding cut deep but conscious child involved please hurry crowd gathering,MEDIUM
+3,stroke,face drooping cannot speak arm weakness sudden collapse needs help elderly patient,CRITICAL
+2,cardiac arrest,person unconscious not breathing chest pain collapsed needs help,CRITICAL
+5,panic,panic attack anxious breathing fast but conscious in office child involved,LOW
+3,minor burn,small burn on finger no blister child involved,LOW
+3,head injury,dizzy after fall vomiting once conscious child involved,MEDIUM
+1,burns,second degree burn painful blisters on arm in office near library please hurry,MEDIUM
+3,fracture,possible broken leg severe pain swelling cannot walk during sports event,MEDIUM
+2,burns,second degree burn painful blisters on arm needs help please hurry,MEDIUM
+1,panic,panic attack anxious breathing fast but conscious needs help child involved,LOW
+3,asthma,breathing difficulty wheezing inhaler not helping child involved at home crowd gathering,MEDIUM
+1,panic,panic attack anxious breathing fast but conscious on main road at home,LOW
+1,fever,high temperature but breathing normally alert elderly patient child involved near library,LOW
+3,burns,severe burns face smoke inhalation difficulty breathing during sports event needs help elderly patient,CRITICAL
+3,burns,second degree burn painful blisters on arm crowd gathering needs help,MEDIUM
+2,fall,slipped and fell mild pain no visible injury near library,LOW
+3,stroke,face drooping cannot speak arm weakness sudden collapse during sports event needs help,CRITICAL

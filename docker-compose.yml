@@ -1,0 +1,205 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: seg-postgres
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-smart_emergency_grid}
+      POSTGRES_USER: ${POSTGRES_USER:-seg_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-seg_password}
+    ports:
+      - "5432:5432"
+    volumes:
+      - seg-postgres-data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-seg_user} -d ${POSTGRES_DB:-smart_emergency_grid}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks: [seg]
+
+  severity-ai:
+    build:
+      context: .
+      dockerfile: ai-severity-service/Dockerfile
+    container_name: seg-severity-ai
+    ports:
+      - "8001:8001"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8001/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [seg]
+
+  route-optimization:
+    build:
+      context: .
+      dockerfile: route-optimization-service/Dockerfile
+    container_name: seg-route-optimization
+    ports:
+      - "8002:8002"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8002/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [seg]
+
+  hospital-recommendation:
+    build:
+      context: .
+      dockerfile: hospital-recommendation-service/Dockerfile
+    container_name: seg-hospital-recommendation
+    ports:
+      - "8003:8003"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8003/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks: [seg]
+
+  emergency-service:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      args:
+        MODULE: emergency-service
+    container_name: seg-emergency-service
+    environment:
+      SERVER_PORT: 8081
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-smart_emergency_grid}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-seg_user}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-seg_password}
+      SEVERITY_AI_URL: http://severity-ai:8001
+      AMBULANCE_SERVICE_URL: http://ambulance-service:8082
+      ROUTE_OPTIMIZATION_URL: http://route-optimization:8002
+      TRAFFIC_SERVICE_URL: http://traffic-service:8084
+      HOSPITAL_RECOMMENDATION_URL: http://hospital-recommendation:8003
+      HOSPITAL_SERVICE_URL: http://hospital-service:8083
+    depends_on:
+      postgres:
+        condition: service_healthy
+      severity-ai:
+        condition: service_healthy
+      route-optimization:
+        condition: service_healthy
+      hospital-recommendation:
+        condition: service_healthy
+    ports:
+      - "8081:8081"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8081/actuator/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    networks: [seg]
+
+  ambulance-service:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      args:
+        MODULE: ambulance-service
+    container_name: seg-ambulance-service
+    environment:
+      SERVER_PORT: 8082
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-smart_emergency_grid}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-seg_user}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-seg_password}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8082:8082"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8082/actuator/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    networks: [seg]
+
+  hospital-service:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      args:
+        MODULE: hospital-service
+    container_name: seg-hospital-service
+    environment:
+      SERVER_PORT: 8083
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-smart_emergency_grid}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-seg_user}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-seg_password}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8083:8083"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8083/actuator/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    networks: [seg]
+
+  traffic-service:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+      args:
+        MODULE: traffic-service
+    container_name: seg-traffic-service
+    environment:
+      SERVER_PORT: 8084
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/${POSTGRES_DB:-smart_emergency_grid}
+      SPRING_DATASOURCE_USERNAME: ${POSTGRES_USER:-seg_user}
+      SPRING_DATASOURCE_PASSWORD: ${POSTGRES_PASSWORD:-seg_password}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "8084:8084"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://localhost:8084/actuator/health || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+    networks: [seg]
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: seg-frontend
+    environment:
+      NEXT_PUBLIC_MAPBOX_TOKEN: ${NEXT_PUBLIC_MAPBOX_TOKEN:-}
+      NEXT_PUBLIC_EMERGENCY_API_URL: ${NEXT_PUBLIC_EMERGENCY_API_URL:-http://localhost:8081}
+      NEXT_PUBLIC_AMBULANCE_API_URL: ${NEXT_PUBLIC_AMBULANCE_API_URL:-http://localhost:8082}
+      NEXT_PUBLIC_HOSPITAL_API_URL: ${NEXT_PUBLIC_HOSPITAL_API_URL:-http://localhost:8083}
+      NEXT_PUBLIC_TRAFFIC_API_URL: ${NEXT_PUBLIC_TRAFFIC_API_URL:-http://localhost:8084}
+      NEXT_PUBLIC_WS_URL: ${NEXT_PUBLIC_WS_URL:-http://localhost:8081/ws}
+      NEXT_PUBLIC_AMBULANCE_WS_URL: ${NEXT_PUBLIC_AMBULANCE_WS_URL:-http://localhost:8082/ws}
+      NEXT_PUBLIC_HOSPITAL_WS_URL: ${NEXT_PUBLIC_HOSPITAL_WS_URL:-http://localhost:8083/ws}
+      NEXT_PUBLIC_TRAFFIC_WS_URL: ${NEXT_PUBLIC_TRAFFIC_WS_URL:-http://localhost:8084/ws}
+      NEXT_PUBLIC_DEMO_HOSPITAL_ID: ${NEXT_PUBLIC_DEMO_HOSPITAL_ID:-c7d92ea3-66e1-52cf-a149-8db02ea83615}
+    ports:
+      - "3000:3000"
+    depends_on:
+      emergency-service:
+        condition: service_healthy
+      ambulance-service:
+        condition: service_healthy
+      hospital-service:
+        condition: service_healthy
+      traffic-service:
+        condition: service_healthy
+    networks: [seg]
+
+volumes:
+  seg-postgres-data:
+
+networks:
+  seg:
+    driver: bridge

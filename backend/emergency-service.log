@@ -1,0 +1,58 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-06-13T19:59:36.777+05:30  INFO 34056 --- [emergency-service] [           main] c.l.g.e.EmergencyServiceApplication      : Starting EmergencyServiceApplication using Java 21.0.10 with PID 34056 (C:\Users\wwwan\Downloads\workspace-019eba94-e336-7b45-a944-dfd1a82d6f78\smart-emergency-grid\backend\emergency-service\target\classes started by wwwan in C:\Users\wwwan\Downloads\workspace-019eba94-e336-7b45-a944-dfd1a82d6f78\smart-emergency-grid\backend\emergency-service)
+2026-06-13T19:59:36.825+05:30  INFO 34056 --- [emergency-service] [           main] c.l.g.e.EmergencyServiceApplication      : The following 1 profile is active: "local"
+2026-06-13T19:59:38.624+05:30  INFO 34056 --- [emergency-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-13T19:59:38.896+05:30  INFO 34056 --- [emergency-service] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 255 ms. Found 3 JPA repository interfaces.
+2026-06-13T19:59:42.751+05:30  INFO 34056 --- [emergency-service] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-06-13T19:59:42.882+05:30  INFO 34056 --- [emergency-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-13T19:59:42.887+05:30  INFO 34056 --- [emergency-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-06-13T19:59:43.153+05:30  INFO 34056 --- [emergency-service] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-13T19:59:43.157+05:30  INFO 34056 --- [emergency-service] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6228 ms
+2026-06-13T19:59:44.428+05:30  INFO 34056 --- [emergency-service] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-13T19:59:44.543+05:30  INFO 34056 --- [emergency-service] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-06-13T19:59:44.709+05:30  INFO 34056 --- [emergency-service] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-13T19:59:46.070+05:30  INFO 34056 --- [emergency-service] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-13T19:59:46.139+05:30  INFO 34056 --- [emergency-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-13T19:59:47.016+05:30  INFO 34056 --- [emergency-service] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:C:\Users\wwwan/.smart-emergency-grid/segdb user=SA
+2026-06-13T19:59:47.021+05:30  INFO 34056 --- [emergency-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-13T19:59:47.079+05:30  WARN 34056 --- [emergency-service] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-13T19:59:51.164+05:30  INFO 34056 --- [emergency-service] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-13T19:59:51.388+05:30  INFO 34056 --- [emergency-service] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T19:59:57.129+05:30  INFO 34056 --- [emergency-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoints beneath base path '/actuator'
+2026-06-13T19:59:57.573+05:30  WARN 34056 --- [emergency-service] [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-06-13T19:59:57.630+05:30  INFO 34056 --- [emergency-service] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-13T19:59:57.636+05:30  INFO 34056 --- [emergency-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-13T19:59:57.679+05:30  INFO 34056 --- [emergency-service] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-13T19:59:57.708+05:30  INFO 34056 --- [emergency-service] [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-13T19:59:57.733+05:30 ERROR 34056 --- [emergency-service] [           main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project emergency-service: Process terminated with exit code: 1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

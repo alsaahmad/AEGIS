@@ -1,0 +1,10 @@
+package com.lifeline.grid.workflow.model;
+
+public enum WorkflowType {
+  EMERGENCY_RESPONSE,
+  AMBULANCE_ASSIGNMENT,
+  HOSPITAL_NOTIFICATION,
+  TRAFFIC_COORDINATION,
+  AI_SEVERITY_ANALYSIS,
+  ROUTE_OPTIMIZATION
+}
