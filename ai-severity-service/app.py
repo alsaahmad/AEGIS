@@ -7,6 +7,7 @@ import joblib
 import numpy as np
 import pandas as pd
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 import severity_model  # noqa: F401 - registers TextBuilder for joblib unpickling
@@ -51,6 +52,13 @@ class SeverityResponse(BaseModel):
     keyword_boost: float
 
 app = FastAPI(title="LifeLine AI Severity Service", version="0.1.0")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=False,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.on_event("startup")
 def load_model():

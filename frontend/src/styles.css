@@ -1,0 +1,187 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-emergency: var(--emergency);
+  --color-emergency-foreground: var(--emergency-foreground);
+  --color-medical: var(--medical);
+  --color-medical-foreground: var(--medical-foreground);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
+  --color-warning: var(--warning);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+}
+
+:root {
+  --radius: 0.75rem;
+  /* Premium Light Theme */
+  --background: #FFFFFF;
+  --foreground: #111111;
+  --card: #FFFFFF;
+  --card-foreground: #111111;
+  --popover: #FFFFFF;
+  --popover-foreground: #111111;
+  --primary: #E63946;          /* AEGIS Red */
+  --primary-foreground: #FFFFFF;
+  --secondary: #F8F9FB;
+  --secondary-foreground: #111111;
+  --muted: #E5E7EB;
+  --muted-foreground: #525866;
+  --accent: #F8F9FB;
+  --accent-foreground: #E63946;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
+  --border: #E5E7EB;
+  --input: #FFFFFF;
+  --ring: #E63946;
+
+  --emergency: #E63946;
+  --emergency-foreground: #FFFFFF;
+  --medical: #0284C7;
+  --medical-foreground: #FFFFFF;
+  --success: #22C55E;
+  --success-foreground: #FFFFFF;
+  --warning: #F59E0B;
+  --warning-foreground: #FFFFFF;
+
+  --chart-1: #E63946;
+  --chart-2: #0284C7;
+  --chart-3: #22C55E;
+  --chart-4: #F59E0B;
+  --chart-5: #8B5CF6;
+
+  --gradient-emergency: linear-gradient(135deg, #E63946, #C32F3A);
+  --gradient-medical: linear-gradient(135deg, #0ea5e9, #0284C7);
+  --gradient-success: linear-gradient(135deg, #22C55E, #16A34A);
+  --gradient-hero: radial-gradient(circle at 10% 20%, rgba(230, 57, 70, 0.04), transparent 45%),
+                   radial-gradient(circle at 90% 80%, rgba(2, 132, 199, 0.04), transparent 45%),
+                   linear-gradient(180deg, #FFFFFF, #F8F9FB);
+
+  --glass-bg: rgba(255, 255, 255, 0.85);
+  --glass-border: rgba(229, 231, 235, 0.8);
+  --shadow-glow-emergency: 0 10px 30px rgba(230, 57, 70, 0.12);
+  --shadow-glow-medical: 0 10px 30px rgba(2, 132, 199, 0.12);
+  --shadow-elegant: 0 12px 30px rgba(0, 0, 0, 0.03), 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html, body, #root {
+    min-height: 100%;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    background-image:
+      radial-gradient(circle at top, rgba(230, 57, 70, 0.02), transparent 400px),
+      radial-gradient(circle at bottom right, rgba(2, 132, 199, 0.02), transparent 400px);
+    background-attachment: fixed;
+  }
+}
+
+@utility glass {
+  background: var(--glass-bg);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border: 1px solid var(--glass-border);
+}
+
+@utility glow-emergency {
+  box-shadow: var(--shadow-glow-emergency);
+}
+@utility glow-medical {
+  box-shadow: var(--shadow-glow-medical);
+}
+
+@utility text-gradient-emergency {
+  background: var(--gradient-emergency);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+@utility text-gradient-hero {
+  background: linear-gradient(135deg, oklch(0.97 0.01 250), oklch(0.75 0.18 25));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+@utility bg-gradient-emergency { background: var(--gradient-emergency); }
+@utility bg-gradient-medical { background: var(--gradient-medical); }
+@utility bg-gradient-success { background: var(--gradient-success); }
+@utility bg-gradient-hero { background: var(--gradient-hero); }
+
+@utility pulse-emergency {
+  animation: pulse-emergency 2s ease-in-out infinite;
+}
+@keyframes pulse-emergency {
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.65 0.25 25 / 60%); }
+  50% { box-shadow: 0 0 0 16px oklch(0.65 0.25 25 / 0%); }
+}
+
+@utility pulse-medical {
+  animation: pulse-medical 2s ease-in-out infinite;
+}
+@keyframes pulse-medical {
+  0%, 100% { box-shadow: 0 0 0 0 oklch(0.62 0.2 245 / 60%); }
+  50% { box-shadow: 0 0 0 14px oklch(0.62 0.2 245 / 0%); }
+}
+
+@keyframes ping-ring {
+  0% { transform: scale(0.6); opacity: 0.9; }
+  100% { transform: scale(2.4); opacity: 0; }
+}
+@utility ping-ring {
+  animation: ping-ring 1.8s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@utility fade-up { animation: fade-up 0.5s ease-out both; }
+
+@keyframes dash {
+  to { stroke-dashoffset: -100; }
+}
+@utility animate-dash { animation: dash 2s linear infinite; }
+
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+@utility spin-slow { animation: spin-slow 12s linear infinite; }
